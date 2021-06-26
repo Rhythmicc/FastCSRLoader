@@ -1,4 +1,4 @@
-# A Fast CSR format matrix loader from \*.mtx
+# A Fast CSR format matrix loader (`mtx` format)
 
 ## Build
 
