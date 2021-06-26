@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.cu": "cpp",
+        "mman.h": "c",
+        "fcntl.h": "c"
+    }
+}

@@ -1,0 +1,6 @@
+compile_tool,g++-11 -O3 -std=c++17 main.cpp -IFastCSRLoader -o dist/test
+compile_filename,main.cpp
+executable_filename,dist/test
+input_file,dist/input.txt
+template_root,template/
+server_target,,
