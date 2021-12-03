@@ -87,8 +87,8 @@ csr* csrLoad(const char*filePath) {
 
     for(int index = 0; index < nnz; ++index) {
         if (isPattern) sscanf(line, "%d%d", ia + index, ja + index);
-        else if(isReal || isInteger) sscanf(line, "%d%d%lg", ia + index, ja + index, val + index);
-        else if(isComplex) sscanf(line, "%d%d%lg%lg", ia + index, ja + index, val + index, val_im + index);
+        else if(isReal || isInteger) sscanf(line, "%d%d%g", ia + index, ja + index, val + index);
+        else if(isComplex) sscanf(line, "%d%d%g%g", ia + index, ja + index, val + index, val_im + index);
 
         --ia[index], --ja[index];
 
